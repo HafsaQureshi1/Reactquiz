@@ -1,16 +1,14 @@
 import  Herosection  from './Herosection';
-import  Skills  from './Skills';
-import  About  from './About';
-import  Contact  from './Contact';
-import  AllPortfolio  from './AllPortfolio';
+import {Statistics} from './Statistics';
 import Carousal from './Carousal';
+import Security from './Security';
 export default function Welcome(){
     return(
         <div>
         <Carousal />
-      
         <Herosection />
-      
+        <Statistics />
+        <Security />
       <br />
       
       </div>

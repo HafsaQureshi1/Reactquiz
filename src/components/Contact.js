@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-export default function Contact(){
+export const Contact =()=>{
 const [userinfo,setUserInfo]=useState({
   email:'',
   feedback:'',
