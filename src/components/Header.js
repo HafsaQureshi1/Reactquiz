@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Image } from 'react-bootstrap';
 import logo from '../assets/images/material-symbols_home-pin (1).png' 
+import { Link } from 'react-router-dom';
 export const Header=()=>{
     return(
       
@@ -13,8 +14,8 @@ export const Header=()=>{
         <div className=" container">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-<div className='col-lg-4'>
-  <Image src={logo} alt="" />
+<div className='col-lg-4'><Link to={'/'}>
+  <Image src={logo} alt="" /></Link>
 </div>
 <div className='col-lg-8'>
           <Nav className="head me-auto mx-5">

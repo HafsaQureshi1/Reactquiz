@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 
 export default function Herosection() {
   return (
@@ -15,7 +16,11 @@ export default function Herosection() {
 Tracking & Reservation.</p>
           </div>
         <div className='my-5  justify-content-center text-center col-lg-6 col-md-12 col-sm-12'>
-        <p className='circular-div'> Get Started</p>
+        <p className='circular-div'>
+      <Link style={{ textDecoration: 'none',color:'white' }} to='/abt'>
+        Get Started
+      </Link>
+    </p>
         </div>
       </Row>
     </Container>
@@ -33,6 +38,9 @@ Tracking & Reservation.</p>
     <p style={{ color: `linear-gradient(to right, #208FFD, #A5FA94)` }} className='  hero fw-bold'> Pinpoint Security, <br />
 ensure the best 
 usage for the institutes</p>
+<p className='container mx-5 justify-content-center'>We ensure the best usage for vehicles tracking and reservation system security with advance encryption standards and capability of keeping your assets like car, points much more secure with the live tracking system</p><br /><br />
+<div className='justify-content-center text-center '><Button className='mx-2 b get 'variant='secondary' >Get Started</Button></div>
+      
     </ >
   );
 }

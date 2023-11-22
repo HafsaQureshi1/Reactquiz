@@ -10,11 +10,8 @@ export default function Welcome(){
         <Carousal />
       
         <Herosection />
-      <Skills />
-      <AllPortfolio />     
-      <About />
-      <Contact />
-      <Carousal />
+      
+      <br />
       
       </div>
     )
