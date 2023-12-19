@@ -117,3 +117,14 @@ color:#D9D9D9;
 .ab{
   text-align: left;
 }
+@font-face {
+  font-family: 'Rubik Bubbles';
+  src: url('./fonts/RubikBubbles-Regular.ttf') format('truetype');
+  /* Add other font formats and variations if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Rubik Bubbles';
+}
